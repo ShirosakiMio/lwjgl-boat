@@ -1,3 +1,5 @@
+# How to compile?
+ant -Dbuild.64bit.only=true -Dlwjgl.cross.jdk="/usr/lib/jvm/java-8-openjdk-amd64/include" -Dcross.compile.target="aarch64-linux-android" -Dlwjgl.platform.boat=true -Dboat.includedir=/home/mio/boat/include -Dboat.libdir=/home/mio/boat/lib -Dlwjgl.cross.cc=$CC -Dlwjgl.cross.strip=$STRIP
 LWJGL - Lightweight Java Game Library
 ======
 
